@@ -1,3 +1,275 @@
 <resources>
     <string name="app_name">Spinner_Ex0831</string>
+    
+    <string-array name="classes">
+        <item>class 1</item>
+        <item>class 2</item>
+        <item>class 3</item>
+        <item>class 4</item>
+    </string-array>
+
+
+    <string-array name="class1Students">
+        <item>Barry Johnson</item>
+        <item>Lucas Smith</item>
+        <item>Or Williams</item>
+        <item>Emma Brown</item>
+        <item>Sophia Davis</item>
+        <item>Benjamin Miller</item>
+        <item>Mia Wilson</item>
+        <item>Henry Taylor</item>
+        <item>Olivia Anderson</item>
+        <item>Alexander Thomas</item>
+    </string-array>
+
+    <string-array name="class2Students">
+        <item>Jake Martinez</item>
+        <item>Ray Garcia</item>
+        <item>Amy Robinson</item>
+        <item>Charles Clark</item>
+        <item>Terry Lee</item>
+        <item>Rosa Walker</item>
+        <item>Judy Hall</item>
+        <item>Bill Adams</item>
+        <item>Liam Perez</item>
+        <item>Ethan Young</item>
+    </string-array>
+
+    <string-array name="class3Students">
+        <item>Michael Harris</item>
+        <item>Jessica Turner</item>
+        <item>David Phillips</item>
+        <item>Sarah Campbell</item>
+        <item>Daniel Parker</item>
+        <item>Grace Evans</item>
+        <item>Toby Collins</item>
+        <item>Hannah Stewart</item>
+        <item>Andrew Rivera</item>
+        <item>Tom Flores</item>
+    </string-array>
+
+    <string-array name="class4Students">
+        <item>Jacob Mitchell</item>
+        <item>Phil Gonzalez</item>
+        <item>Josh Brooks</item>
+        <item>Harry Reed</item>
+        <item>Zoey Cook</item>
+        <item>Ella Morgan</item>
+        <item>Joseph Bailey</item>
+        <item>Abigail Kelly</item>
+        <item>Logan Howard</item>
+        <item>Sofia Cox</item>
+    </string-array>
+
+
+    <string-array name="class1FirstNames">
+        <item>Barry</item>
+        <item>Lucas</item>
+        <item>Or</item>
+        <item>Emma</item>
+        <item>Sophia</item>
+        <item>Benjamin</item>
+        <item>Mia</item>
+        <item>Henry</item>
+        <item>Olivia</item>
+        <item>Alexander</item>
+    </string-array>
+
+    <string-array name="class2FirstNames">
+        <item>Jake</item>
+        <item>Ray</item>
+        <item>Amy</item>
+        <item>Charles</item>
+        <item>Terry</item>
+        <item>Rosa</item>
+        <item>Judy</item>
+        <item>Bill</item>
+        <item>Liam</item>
+        <item>Ethan</item>
+    </string-array>
+
+    <string-array name="class3FirstNames">
+        <item>Michael</item>
+        <item>Jessica</item>
+        <item>David</item>
+        <item>Sarah</item>
+        <item>Daniel</item>
+        <item>Grace</item>
+        <item>Toby</item>
+        <item>Hannah</item>
+        <item>Andrew</item>
+        <item>Tom</item>
+    </string-array>
+
+    <string-array name="class4FirstNames">
+        <item>Jacob</item>
+        <item>Phil</item>
+        <item>Josh</item>
+        <item>Harry</item>
+        <item>Zoey</item>
+        <item>Ella</item>
+        <item>Joseph</item>
+        <item>Abigail</item>
+        <item>Logan</item>
+        <item>Sofia</item>
+    </string-array>
+
+
+    <string-array name="class1LastNames">
+        <item>Johnson</item>
+        <item>Smith</item>
+        <item>Williams</item>
+        <item>Brown</item>
+        <item>Davis</item>
+        <item>Miller</item>
+        <item>Wilson</item>
+        <item>Taylor</item>
+        <item>Anderson</item>
+        <item>Thomas</item>
+    </string-array>
+
+    <string-array name="class2LastNames">
+        <item>Martinez</item>
+        <item>Garcia</item>
+        <item>Robinson</item>
+        <item>Clark</item>
+        <item>Lee</item>
+        <item>Walker</item>
+        <item>Hall</item>
+        <item>Adams</item>
+        <item>Perez</item>
+        <item>Young</item>
+    </string-array>
+
+    <string-array name="class3LastNames">
+        <item>Harris</item>
+        <item>Turner</item>
+        <item>Phillips</item>
+        <item>Campbell</item>
+        <item>Parker</item>
+        <item>Evans</item>
+        <item>Collins</item>
+        <item>Stewart</item>
+        <item>Rivera</item>
+        <item>Flores</item>
+    </string-array>
+
+    <string-array name="class4LastNames">
+        <item>Mitchell</item>
+        <item>Gonzalez</item>
+        <item>Brooks</item>
+        <item>Reed</item>
+        <item>Cook</item>
+        <item>Morgan</item>
+        <item>Bailey</item>
+        <item>Kelly</item>
+        <item>Howard</item>
+        <item>Cox</item>
+    </string-array>
+
+
+    <string-array name="class1BirthDates">
+        <item>15/01/2008</item>
+        <item>22/02/2008</item>
+        <item>08/03/2008</item>
+        <item>19/04/2008</item>
+        <item>10/05/2008</item>
+        <item>25/06/2008</item>
+        <item>14/07/2008</item>
+        <item>03/08/2008</item>
+        <item>28/09/2008</item>
+        <item>11/10/2008</item>
+    </string-array>
+
+    <string-array name="class2BirthDates">
+        <item>03/01/2008</item>
+        <item>12/02/2008</item>
+        <item>29/03/2008</item>
+        <item>06/04/2008</item>
+        <item>17/05/2008</item>
+        <item>30/06/2008</item>
+        <item>22/07/2008</item>
+        <item>15/08/2008</item>
+        <item>09/09/2008</item>
+        <item>26/10/2008</item>
+    </string-array>
+
+    <string-array name="class3BirthDates">
+        <item>08/01/2008</item>
+        <item>18/02/2008</item>
+        <item>12/03/2008</item>
+        <item>21/04/2008</item>
+        <item>28/05/2008</item>
+        <item>14/06/2008</item>
+        <item>07/07/2008</item>
+        <item>19/08/2008</item>
+        <item>24/09/2008</item>
+        <item>04/10/2008</item>
+    </string-array>
+
+    <string-array name="class4BirthDates">
+        <item>27/01/2008</item>
+        <item>07/02/2008</item>
+        <item>19/03/2008</item>
+        <item>30/04/2008</item>
+        <item>04/05/2008</item>
+        <item>18/06/2008</item>
+        <item>29/07/2008</item>
+        <item>12/08/2008</item>
+        <item>16/09/2008</item>
+        <item>23/10/2008</item>
+    </string-array>
+
+
+    <string-array name="class1PhoneNumbers">
+        <item>050-123-4567</item>
+        <item>052-234-5678</item>
+        <item>053-345-6789</item>
+        <item>054-456-7890</item>
+        <item>057-567-8901</item>
+        <item>058-678-9012</item>
+        <item>059-789-0123</item>
+        <item>050-890-1234</item>
+        <item>051-901-2345</item>
+        <item>053-012-3456</item>
+    </string-array>
+
+    <string-array name="class2PhoneNumbers">
+        <item>050-111-2222</item>
+        <item>052-222-3333</item>
+        <item>053-333-4444</item>
+        <item>054-444-5555</item>
+        <item>057-555-6666</item>
+        <item>058-666-7777</item>
+        <item>059-777-8888</item>
+        <item>050-888-9999</item>
+        <item>051-999-0000</item>
+        <item>053-000-1111</item>
+    </string-array>
+
+    <string-array name="class3PhoneNumbers">
+        <item>050-121-2121</item>
+        <item>052-232-3232</item>
+        <item>053-343-4343</item>
+        <item>054-454-5454</item>
+        <item>057-565-6565</item>
+        <item>058-676-7676</item>
+        <item>059-787-8787</item>
+        <item>050-898-9898</item>
+        <item>051-909-0909</item>
+        <item>053-101-0101</item>
+    </string-array>
+
+    <string-array name="class4PhoneNumbers">
+        <item>050-112-3344</item>
+        <item>052-223-4455</item>
+        <item>053-334-5566</item>
+        <item>054-445-6677</item>
+        <item>057-556-7788</item>
+        <item>058-667-8899</item>
+        <item>059-778-9900</item>
+        <item>050-889-0011</item>
+        <item>051-990-1122</item>
+        <item>053-001-2233</item>
+    </string-array>
 </resources>
