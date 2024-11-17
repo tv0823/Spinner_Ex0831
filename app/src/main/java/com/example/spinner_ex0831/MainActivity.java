@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     TextView firstNameTv, lastNameTv, birthDateTv, phoneNumTv;
 
     String[] classes;
-    String[][] classStudents, classFirstNames, classLastNames, classBirthDates, classPhoneNumbers;
+    String[][] classStudents, classBirthDates, classPhoneNumbers;
 
     int classNum;
 
@@ -49,8 +49,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         studentsLv.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
 
         classStudents = new String[][]{getResources().getStringArray(R.array.class1Students), getResources().getStringArray(R.array.class2Students), getResources().getStringArray(R.array.class3Students), getResources().getStringArray(R.array.class4Students)};
-        classFirstNames = new String[][]{getResources().getStringArray(R.array.class1FirstNames), getResources().getStringArray(R.array.class2FirstNames), getResources().getStringArray(R.array.class3FirstNames), getResources().getStringArray(R.array.class4FirstNames)};
-        classLastNames = new String[][]{getResources().getStringArray(R.array.class1LastNames), getResources().getStringArray(R.array.class2LastNames), getResources().getStringArray(R.array.class3LastNames), getResources().getStringArray(R.array.class4LastNames)};
         classBirthDates = new String[][]{getResources().getStringArray(R.array.class1BirthDates), getResources().getStringArray(R.array.class2BirthDates), getResources().getStringArray(R.array.class3BirthDates), getResources().getStringArray(R.array.class4BirthDates)};
         classPhoneNumbers = new String[][]{getResources().getStringArray(R.array.class1PhoneNumbers), getResources().getStringArray(R.array.class2PhoneNumbers), getResources().getStringArray(R.array.class3PhoneNumbers), getResources().getStringArray(R.array.class4PhoneNumbers)};
     }
@@ -70,10 +68,26 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int pos, long rowid) {
-        firstNameTv.setText("First name: " + classFirstNames[classNum][pos]);
-        lastNameTv.setText("Last name: " + classLastNames[classNum][pos]);
+        getFirstAndLastName(classStudents[classNum][pos]);
         birthDateTv.setText("Birth date: "+ classBirthDates[classNum][pos]);
         phoneNumTv.setText("Phone number: " + classPhoneNumbers[classNum][pos]);
+    }
+
+    public void getFirstAndLastName(String fullName){
+        boolean foundSpace = false;
+        int i = 0;
+        while(!foundSpace){
+            if(fullName.charAt(i) == ' '){
+                foundSpace = true;
+            }
+            i++;
+        }
+
+        String firstName = fullName.substring(0,i);
+        String lastName = fullName.substring(i);
+        firstNameTv.setText("First name: " + firstName);
+        lastNameTv.setText("Last name: " + lastName);
+
     }
 
     public void clearTv(){
